@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        /*style the header */
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+
+        .header {
+            padding: 40px;
+
+        }
+
+
+        a:link,
+        a:visited {
+            background-color: firebrick;
+            color: white;
+            padding: 10px 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: right;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 4px;
+
+        }
+
+        .flex-container-logos {
+            display: flex;
+            justify-content: space-between;
+            background-color: firebrick;
+
+        }
+
+        .flex-container-navbar {
+            display: flex;
+            justify-content: center;
+            font: helvetica;
+            
+        }
+
+        .flex-container-navbar-logo {
+            display: flex;
+            margin: 10px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+
+        .logoSize {
+            width: 140px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            display: flex;
+
+        }
+
+        a:hover,
+        a:active {
+            background-color: firebrick;
+            color: white;
+            text-align: right;
+        }
+
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            display: inline;
+            text-align: center;
+            font: 1em sans-serif;
+
+        }
+
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        div {
+            border-radius: 5px;
+            background-color: #f2f2f200;
+            padding: 20px;
+        }
+        h3{
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 30px;
+        }
+         /* Style the footer */
+        .footer {
+            background-color: firebrick;
+            padding: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container-logos">
+        <div class="logoSize">
+            <img src="https://imagensemoldes.com.br/wp-content/uploads/2020/05/Logo-Branco-Coca-Cola-PNG.png" width 50px
+                alt="logotipo Coca-Cola">
+        </div>
+
+        <div class="logoSize">
+            <a href="https://www.instagram.com/cocacola_br/" target="_blank"><img width="50px"
+                    src="https://www.pinclipart.com/picdir/big/119-1198369_instagram-2016-logo-svg-vector-amp-png-transparent.png"
+                    alt="icone instagram"></a>
+            <a href="https://www.facebook.com/Coca-Cola/" target="_blank"><img width="50px"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_(2019).svg/1200px-Facebook_f_logo_(2019).svg.png"
+                    alt="icone facebook"></a>
+
+        </div>
+
+    </div>
+    <div class="flex-container-navbar">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/index.html">INÍCIO</a></li>
+            <li><a href="http://127.0.0.1:5500/produtos.html">PRODUTOS</a></li>
+            <li><a href="http://127.0.0.1:5500/sobrenos.html">SOBRE NÓS</a></li>
+            <li><a href="http://127.0.0.1:5500/contatos.html">CONTATO</a></li>
+        </ul>
+    </div>
+    <h3>Entre em contato conosco através de email</h3>
+
+    <div>
+        <form action="/action_page.php">
+            <label for="fname">Nome</label>
+            <input type="text" id="fname" name="firstname" placeholder="seu nome aqui..">
+
+            <label for="lname">Sobrenome</label>
+            <input type="text" id="lname" name="lastname" placeholder="seu sobrenome aqui..">
+
+            <label for="country">País</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="Brasil">Brasil</option>
+            </select>
+            <label for="message">Sua mensagem</label>
+            <input type="text" id="message" name="message" placeholder="sua mensagem aqui..">
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="footer">
+    </div>
+
+</body>
+
+</html>
