@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        /*style the header */
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+
+        .header {
+            padding: 40px;
+
+        }
+
+
+        a:link,
+        a:visited {
+            background-color: firebrick;
+            color: white;
+            padding: 10px 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: right;
+            text-decoration: none;
+            display: inline-block;
+
+        }
+
+        .flex-container-logos {
+            display: flex;
+            justify-content: space-between;
+            background-color: firebrick;
+
+        }
+
+        .flex-container-navbar {
+            display: flex;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .flex-container-navbar-logo {
+            display: flex;
+            margin: 10px;
+            text-align: center;
+        }
+
+
+        .logoSize {
+            width: 140px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            display: flex;
+
+        }
+
+        a:hover,
+        a:active {
+            background-color: firebrick;
+            color: white;
+            text-align: right;
+        }
+
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            display: inline;
+            text-align: center;
+            font: 1em sans-serif;
+
+        }
+
+        .flex-box-imagem-coca {
+            display: flex;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+
+        .flex-box-texto {
+            margin-top: 30px;
+            margin-left: 100px;
+            margin-right: 100px;
+            border: 1px solid gray;
+            padding: 3px;
+        }
+        .flex-box-imagens-texto {
+            justify-content: center;
+            display: flex;
+        }
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            color: #932020;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h2 {
+            text-indent: 50px;
+            text-align: center;
+            letter-spacing: 3px;
+            color: #932020;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p {
+            text-align: center;
+            color: black;
+            letter-spacing: 3px;
+            text-indent: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: #008CBA;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container-logos">
+        <div class="logoSize">
+            <img src="https://imagensemoldes.com.br/wp-content/uploads/2020/05/Logo-Branco-Coca-Cola-PNG.png" width 50px
+                alt="logotipo Coca-Cola">
+        </div>
+
+        <div class="logoSize">
+            <a href="https://www.instagram.com/cocacola_br/" target="_blank"><img width="50px"
+                    src="https://www.pinclipart.com/picdir/big/119-1198369_instagram-2016-logo-svg-vector-amp-png-transparent.png"
+                    alt="icone instagram"></a>
+            <a href="https://www.facebook.com/Coca-Cola/" target="_blank"><img width="50px"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_(2019).svg/1200px-Facebook_f_logo_(2019).svg.png"
+                    alt="icone facebook"></a>
+
+        </div>
+
+    </div>
+    <div class="flex-container-navbar">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/index.html">INÍCIO</a></li>
+            <li><a href="http://127.0.0.1:5500/produtos.html">PRODUTOS</a></li>
+            <li><a href="http://127.0.0.1:5500/sobrenos.html">SOBRE NÓS</a></li>
+            <li><a href="https://www.cocacolabrasil.com.br/faleconosco">CONTATO</a></li>
+        </ul>
+    </div>
+    <div class="flex-box-texto">
+        <div>
+            <h1>Nossa História</h1>
+            <h2> 1941</h2>
+            <p>Durante a Segunda Guerra Mundial, o então presidente da The Coca-Cola Company, Robert Woodruff, fez uma promessa às Forças Armadas dos Estados Unidos: os soldados americanos teriam sempre uma Coca-Cola gelada por perto para matar a sede e ao preço de 5 cents — independentemente do custo para a empresa. Assim, em 1941, a Coca-Cola fabricou em Recife o seu primeiro refrigerante em solo brasileiro. A capital de Pernambuco formava, junto com Natal, o chamado “Corredor da Vitória”, parada obrigatória das embarcações e outros veículos militares que rumavam para a Europa em guerra. A Coca-Cola usou as instalações da fábrica de água mineral Santa Clara, que existe até hoje. Depois foram instaladas minifábricas (kits com equipamentos básicos para produção de refrigerante) em Recife e Natal.</p>
+            <div class="flex-box-imagens-texto"> <img src="https://www.cocacolabrasil.com.br/content/dam/journey/br/pt/history/fotos-2016/coca-cola-brasil-propaganda-antiga-esta-pra-mim-homem-rosto-596x800.rendition.584.784.jpg" alt="beba bem gelada coca cola"></div>
+            <h2>1942</h2>
+            <p>A primeira fábrica constituída no país pela Coca-Cola Brasil foi inaugurada em São Cristóvão, à época um importante polo industrial do Rio de Janeiro. Em 18 de abril de 1942, foram produzidas as primeiras unidades — garrafinhas de 185ml, as únicas disponíveis. O concentrado e o gás vinham dos EUA. No ano seguinte, em 1943, a Coca-Cola Brasil inaugurou sua primeira filial no país, em São Paulo. Os brasileiros ainda se acostumariam com o sabor único da Coca-Cola.</p>
+            <h2>1945</h2>
+            <p>O ano de 1945 foi fundamental para a Coca-Cola no Brasil: foi estabelecido o sistema de franquia, que já era um grande sucesso nos Estados Unidos desde o início do século. A primeira autorização para a fabricação do produto foi concedida à Industrial de Refrescos, do Rio Grande do Sul, seguida pela Spal Indústria Brasileira de Bebidas, de São Paulo. Com o fim da Segunda Guerra no mesmo ano, estava aberto o caminho para a expansão da marca no Brasil. Publicitário da McCann Erickson na época, o escritor Guilherme Figueiredo criou um dos primeiros slogans brasileiros da marca: “Coca-Cola borbulhante, refrescante, 10 tostões”. Figueiredo também procurava exibir famosos da época bebendo o refrigerante diretamente do gargalo, uma inovação nos hábitos brasileiros.</p>
+            <div class="flex-box-imagens-texto"><img src="https://www.cocacolabrasil.com.br/content/dam/journey/br/pt/history/fotos-2016/coca-cola-brasil-propaganda-antiga-natal-papai-noel-isto-faz-um-bem.rendition.584.735.jpg" alt="papai noel coca cola"></div>
+            <h2>1950</h2>
+            <p>Nos anos 1950, o slogan “Isto faz um bem” marca as ações publicitárias da Coca-Cola. A frase foi tema da propaganda durante 14 anos.</p>
+            <h2>1962</h2>
+            <p>A partir de 1962, com o surgimento de fornecedores de matérias-primas, o concentrado passou a ser fabricado no Rio de Janeiro. Em 1964 foi lançada a Fanta Laranja, a segunda marca da Coca-Cola Brasil no país.</p>
+            <h2>1970</h2>
+            <p>No fim da década de 1960, o Brasil já tinha mais de 20 fábricas, que abasteciam todo o território nacional. As máquinas de post-mix, aquelas usadas em lanchonetes que misturam na hora o concentrado e a água com gás, chegaram nos anos 1970. O lançamento aconteceu em uma lanchonete do Leblon, em 1970, quando o país comemorava o tricampeonato mundial de futebol na Copa do Mundo da FIFA México 1970.</p>
+            <div class="flex-box-imagens-texto"><img src="https://www.cocacolabrasil.com.br/content/dam/journey/br/pt/history/fotos-2016/coca-cola-brasil-propaganda-antiga-refrescante-cartaz.rendition.584.327.jpg" alt="coca cola refrescante"></div>
+            <h2>1981</h2>
+            <p>Os anos 1980 representaram um período de mudanças fundamentais no mercado brasileiro de refrigerantes. Em 1981, a Coca-Cola lançou o refrigerante em lata, a primeira de uma série de iniciativas pioneiras no Brasil. Em 1988, vieram as embalagens one way e, logo depois, a tampa de rosca, que permitia guardar as bebidas deitadas na geladeira.</p>
+            <h2>1983</h2>
+            <p>Em 1983, a campanha publicitária que marcou a empresa: “Coca-Cola é isso aí”. No fim dos anos 1980, já eram 36 franqueados. A Coca-Cola Brasil já atuava em projetos sociais, culturais, ambientais e esportivos.</p>
+            <h2>1990</h2>
+            <p>Em junho de 1990 foi lançada a lata de alumínio 100% reciclável para toda a linha de produtos. Pouco depois, chegou ao mercado brasileiro a garrafa plástica Superfamília retornável de 1,5L. Além de prática, atendia às exigências da legislação internacional de proteção ambiental. O Brasil foi o terceiro país do mundo a adotar essa embalagem (depois de Alemanha e Holanda). Era a maior novidade em termos de embalagem em 50 anos. Em 1996, o Programa "Reciclou, Ganhou" marcou o pioneirismo da empresa em reciclagem no Brasil. Inaugurada em 1990, a Recofarma é a única fábrica de concentrados e bases de bebida da Coca-Cola Brasil e, além de abastecer todo o mercado nacional, também é responsável pelo fornecimento a fabricantes no Paraguai, na Colômbia e na Venezuela.</p>
+            <div class="flex-box-imagens-texto"> <img src="https://www.cocacolabrasil.com.br/content/dam/journey/br/pt/history/fotos-2016/coca-cola-brasil-propaganda-antiga-rio-de-janeiro.rendition.584.637.jpg" alt="convite coca cola"></div>
+            <h2>2001</h2>
+            <p>A histórica garrafa contour (aquela com as curvas acentuadas) de 237ml foi relançada no país em 2001.</p>
+            <h2>2003</h2>
+            <p>Em 2003, a Coca-Cola firmou com o Comitê Olímpico do Brasil (COB) patrocínio às equipes olímpicas de ginástica artística, judô e natação, visando a preparação para as Olímpiadas de 2004.</p>
+            <h2>2005</h2>
+            <p>A Coca-Cola Brasil adquiriu a empresa Sucos Mais e diversificou sua sua linha de marcas e produtos em 2005. No mesmo ano, um importante marco para o país: o Sistema Coca-Cola Brasil conquistou a “Woodruff Cup” por ter a operação de melhor desempenho da The Coca-Cola Company no mundo, segundo critérios de mercado e práticas de sustentabilidade desenvolvidas em todos os níveis da sociedade. Já o Instituto Coca-Cola Brasil ganhou destaque atuando no tripé Educação, Meio Ambiente e Vida Saudável. A Coca-Cola reduziu a quantidade de água por litro de bebida produzida, tendo um dos melhores índices do mundo. A Coca-Cola Brasil é uma das pioneiras no mundo na utilização em larga escala de refrigeradores de CO2, um gás existente na natureza e menos agressivo que o HFC. As geladeiras que são comercializadas atualmente, por exemplo, contam com o sensor EMS-55, patenteado pela empresa em 2007.</p>
+            <div class="flex-box-imagens-texto"><img src="https://www.cocacolabrasil.com.br/content/dam/journey/br/pt/history/fotos-2016/coca-cola-brasil-propaganda-antiga-tudo-vai-melhor-com-coca-cola.rendition.584.784.jpg" alt="tudo vai melhor com coca"></div>
+            <h2>2009</h2>
+            <p>Criado em 2009, o Coletivo Coca-Cola é a plataforma de Valor Compartilhado da Coca-Cola Brasil. Seu objetivo é transformar a vida de milhares de pessoas por meio de toda a cadeia de valor da empresa. O Coletivo promove oportunidades econômicas nas comunidades de baixa renda, em parceria com instituições locais, oferecendo treinamento técnico, valorização da autoestima e acesso ao mercado. </p>
+            <h2>2010</h2>
+            <p>A Coca-Cola Brasil lançou a PlantBottle, a primeira garrafa PET (politereftalato de etileno) da América do Sul com matéria-prima de origem vegetal. Sua fabricação deixa de lado parte do uso dos derivados do petróleo, que foi substituído pelo etanol da cana-de-açúcar. Além de ser menos poluente, pois as emissões de CO2 de seu processo produtivo são 25% menores, a tecnologia fabril da PlantBottle usa 30% de fontes vegetais e faz com que a empresa dependa menos de recursos não renováveis.</p>
+            <h2>2011</h2>
+            <p>Nesse ano, a Coca-Cola Brasil tornou-se pioneira no uso de materiais reciclados em suas embalagens com o lançamento da Bottle-to-Bottle, uma embalagem PET produzida parcialmente com garrafas PET recicladas após o consumo. Lançada também em 2011, a Crystal eco é a água mineral com uma embalagem que utiliza 20% menos PET que as versões anteriores e até 30% de matéria-prima de origem do etanol da cana-de-açúcar – e não do petróleo –, reduzindo em cerca de 25% as emissões de dióxido de carbono (CO2).</p>
+            <div class="flex-box-imagens-texto"><img src="https://www.cocacolabrasil.com.br/content/dam/journey/br/pt/history/fotos-2016/sua-sede-move-a-nossa.rendition.584.327.jpg" alt="sua sede move a nossa"></div>
+            <h2>2014</h2>
+            <p>A Coca-Cola Brasil inovou com a criação da plataforma de Real Time Marketing para a Copa do Mundo da FIFA™ 2014, e já a transformou em uma estrutura permanente. O sucesso da experiência – que gerou mais de 500 mil menções nas redes sociais durante a competição – fez com que a área de comunicação em tempo real, então única da empresa no mundo, se tornasse uma nova forma de fazer marketing dentro da The Coca-Cola Company.</p>
+            <h2>2016</h2>
+            <p>Foi anunciada a estratégia global de marca única, que, pela primeira vez na história da The Coca-Cola Company, reúne as versões da marca de refrigerante Coca-Cola em uma única campanha criativa: “Taste the feeling”, ou “Sinta o sabor” no Brasil. A nova estratégia estende o valor global e o apelo icônico da Coca-Cola original a todas as versões; celebra o prazer de beber uma Coca-Cola – qualquer Coca-Cola –; e reforça o compromisso de oferecer opções ao consumidor, permitindo escolher a Coca-Cola que mais se adapte a seu gosto e seu estilo de vida, em vários tamanhos de embalagens. Em maio, foi lançada no Brasil a Coca-Cola com Stevia e 50% menos açúcares. O novo produto é parte do compromisso mundial de oferecer opções para quem quer reduzir o consumo de açúcar, sem precisar abrir mão do prazer de beber uma Coca-Cola. Também dentro do compromisso de oferecer opções, em junho, a The Coca-Cola Company e a Coca-Cola Femsa anunciaram acordo para comprar o negócio de bebidas de soja AdeS, com operações na América Latina, inclusive no Brasil.</p>
+            <div class="flex-box-imagens-texto"><img src="https://www.cocacolabrasil.com.br/content/dam/journey/br/pt/history/fotos-2016/one-brand-anuncio-596x650.rendition.584.637.jpg" alt="novas escolhas, mesmo prazer"></div>
+            <h2>HOJE</h2>
+            <P>A Coca-Cola Brasil vem ampliando seu portfólio de bebidas ano a ano e, atualmente, atua em nove segmentos — refrigerantes, água, chás, néctares, sucos, lácteos, água de coco, bebidas esportivas e bebidas vegetais — com 26 marcas e mais de 200 produtos, incluindo versões zero ou de baixa caloria.
+
+                As aquisições mais recentes foram a marca de lácteos Verde Campo e a de bebidas de base vegetal AdeS. Por trás desses exemplos, estão mudanças estruturais grandes, como a criação de uma nova vice-presidência para todas as bebidas que não são refrigerantes.
+                
+                Além do lançarmo de novos produtos, a empresa repensou as receitas de 27, nos últimos três anos (de 2015 a 2017), por meio de investimento em pesquisa e desenvolvimento. Apenas em 2017, foi reduzida a quantidade de açúcar adicionado em 17 bebidas.
+                
+                Outras frentes de investimento e melhorias têm sido a gestão de recursos hídricos e de resíduos sólidos.</P>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
